@@ -20,7 +20,6 @@ Welcome to the Flask Interactive UI project! This is a simple web application bu
 
 ```bash
 git clone https://github.com/omkar7176/docker-assignment.git
-cd flask-interactive-ui
 ```
 
 ## Install Dependencies
