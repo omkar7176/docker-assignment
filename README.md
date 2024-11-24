@@ -19,7 +19,7 @@ Welcome to the Flask Interactive UI project! This is a simple web application bu
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/flask-interactive-ui.git
+git clone https://github.com/omkar7176/docker-assignment.git
 cd flask-interactive-ui
 ```
 
