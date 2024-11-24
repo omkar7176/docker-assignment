@@ -24,7 +24,9 @@ Your-local-foldername/
 ├── .dockerignore           # Files to ignore in Docker build
 ├── static/                 # Static files (CSS, JS, images)
 │   └── css/
-│       └── style.css       # Stylesheet for the application
+│   |    └── style.css       # Stylesheet for the application
+│   └── js/
+│       └── script.js       # adding the functionality in the application   
 └── templates/              # HTML templates
     └── index.html          # Main HTML file
 ```
