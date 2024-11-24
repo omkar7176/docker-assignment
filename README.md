@@ -21,3 +21,23 @@ Welcome to the Flask Interactive UI project! This is a simple web application bu
 ```bash
 git clone https://github.com/yourusername/flask-interactive-ui.git
 cd flask-interactive-ui
+```
+
+## Install Dependencies
+1. Create a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+2. Install the required Python packages:
+   
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Application
+
+```bash
+python app.py
+```
