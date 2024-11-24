@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flask Interactive UI</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Flask App</h1>
+      <h4>By Omkar Tupere</h4>
+    </header>
+
+    <div class="container">
+      <button class="colorful-button" id="button1">Button 1</button>
+      <button class="colorful-button" id="button2">Button 2</button>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 My Flask App</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
